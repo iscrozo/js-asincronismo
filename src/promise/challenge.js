@@ -15,7 +15,7 @@ function fetchData(urlApi) {
 //     })
 //     .catch( error => console.log(error));
 
-// https://www.freecodecamp.org/espanol/news/funciones-callback-en-javascript-que-son-los-callback-en-js-y-como-usarlos/#:~:text=Los%20callbacks%20aseguran%20que%20una,salvo%20de%20problemas%20y%20errores.
+
 
 fetchData(`${API}/products`)
     .then(response => response.json())
